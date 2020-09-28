@@ -51,11 +51,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.spring4all</groupId>
 			<artifactId>spring-boot-starter-swagger</artifactId>
