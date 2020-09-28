@@ -1,0 +1,15 @@
+nohup: ignoring input
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.316 s
+[INFO] Finished at: 2020-09-10T16:54:38+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Could not find goal 'run ' in plugin org.springframework.boot:spring-boot-maven-plugin:2.1.6.RELEASE among available goals build-info, help, repackage, run, start, stop -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoNotFoundException
