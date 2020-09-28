@@ -7,10 +7,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
+@RestController
 public class DemoApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	@GetMapping("")
+	public String welcome() {
+		return "welcome heroku backend!!";
+	}
 }
